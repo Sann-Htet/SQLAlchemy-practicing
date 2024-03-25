@@ -48,5 +48,7 @@ async def async_main():
 
         print(result.all())
 
+    await engine.dispose()
+
 
 asyncio.run(async_main())
